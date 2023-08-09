@@ -14,8 +14,8 @@ print(sum(unique_replist))
 # створення словаря
 employee = {'age': 35, 'job': 'engineer', 'salary': 2800}
 print(employee['salary'])
-employee['salary'] = 2800 / 1.5
-print("заробітна платня в 1.5 менша")
+employee['salary'] *= 1.5
+print("заробітна платня в 1.5 більша")
 print(employee['salary'])
 
 
