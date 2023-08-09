@@ -10,12 +10,18 @@ class Human:
         fav_drink = self.favorite_drink
         print(f' {class_name} likes drink {fav_drink}')
 
+class Worker(Human):
+    pass
+
+
 man1 = Human(17)
 man2 = Human(28)
 
 man1.drink()
 man2.drink()
 
+w1 = Worker(15)
+w1.drink()
 
 
 
