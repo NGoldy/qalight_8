@@ -17,7 +17,10 @@ r9 = r8.replace('є', '#')
 r10 = r9.replace('я', '#')
 r11 = r10.replace('и', '#')
 r12 = r11.replace('ю', '#')
-print(r4)
+print(r12)
+print('Відновити строку:')
+print(r12.split('#'))
+
 
 
 
